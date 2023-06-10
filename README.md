@@ -40,9 +40,9 @@ Score of mean avergae precision for different hash code lengths.
 Score of normalized discounted cummulative gain for different hash code lengths.
 | nDCG@p |  16  |32 | 48| 64|
 |--|--|--|--|--|
-| nDCG@10 | 0.7586 | |
-| nDCG@100 | 0.7075 |
-| nDCG@1000 | 0.6307 |
+| nDCG@10 | 0.8805| 0.9398| 0.9886| 0.9582 |
+| nDCG@100 |0.9006| 0.9481 |0.9901|0.9640 |
+| nDCG@1000 | 0.9236| 0.9615| 0.9886 |0.9688 |
 
 
 **Contributor**
