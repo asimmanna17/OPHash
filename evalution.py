@@ -44,12 +44,7 @@ def hammingDistance(h1, h2):
     distH = torch.pow(torch.norm(h1norm - h2norm, p=2), 2) * hash_code / 4
     return distH
 
-def InnerHammingDistance(h1, h2):
-    hash_code = h1.shape[1]
-    inner_product = torch.sum(h1*h2, dim= 1)
-    distH = (hash_code- inner_product)/2
 
-    return distH
 
 #### Hyperparemetr Details ######
 hash_code = 48
