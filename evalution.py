@@ -131,7 +131,7 @@ with torch.no_grad():
             h_q = torch.sign(h_q)
             dist = {}
             for key, h1 in gallery.items():
-                dist[key] = InnerHammingDistance(h1, h_q)
+                dist[key] = hammingDistance(h1, h_q)
 
             print(count)   
             ### images with sorted distance 
