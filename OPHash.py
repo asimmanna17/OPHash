@@ -83,7 +83,7 @@ discriminator_optimizer = optim.Adam(discriminator.parameters(), lr = learningRa
 
 
 hd_item = {}
-
+encoder.train()
 for epoch in tqdm(range(epochs)):
     print ("Epoch:%d/%s."%(epoch+1,epochs))
 
