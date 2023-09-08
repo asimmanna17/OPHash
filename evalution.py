@@ -30,7 +30,7 @@ def relevenceClasses(sorted_pool,q_name):
         if ((q_name.split("_")[0]+'_'+q_name.split("_")[1]) ==(sorted_pool[i][0].split("_")[0]+'_'+sorted_pool[i][0].split("_")[1]) or (q_name.split("_")[2] == sorted_pool[i][0].split("_")[2])):
         
             value.append(1)
-        elif (q_name.split("_")[1:3])== (sorted_pool[i][0].split("_")[1:3]):
+        elif (q_name.split("_")[0:3])== (sorted_pool[i][0].split("_")[0:3]):
             value.append(2)
         else:
             value.append(0)
