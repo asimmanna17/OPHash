@@ -46,7 +46,7 @@ class Classifier(nn.Module):
         # x = F.relu(self.conv1d(x))
         x = F.relu(self.fc1(x))
         x = F.relu(self.fc2(x))
-        x = F.log_softmax(self.fc3(x), dim=0)
+        x = F.log_softmax(self.fc3(x), dim=1)
         return x
 
 
