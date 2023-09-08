@@ -114,8 +114,7 @@ with torch.no_grad():
 
     #print(len(qNimage[0:100]))
     for q_name in query_files:
-        if 'Chest_CT' not in q_name:
-            #
+        
             count = count+1
             query_image_path = os.path.join(queryfolderpath, q_name)
             # Load and transform the image
