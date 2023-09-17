@@ -11,7 +11,7 @@
 
 ## Datasets
 ### Large size dataset:
-  Brain [(Figshare)](https://figshare.com/articles/dataset/brain_tumor_dataset/1512427/5), Breast [(link)](https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset) and Chest and Retina [(link)](https://data.mendeley.com/datasets/rscbjbr9sj/2).
+  Brain [(Figshare)](https://figshare.com/articles/dataset/brain_tumor_dataset/1512427/5), Breast [(Kaggle)](https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset) and Chest and Retina [(Mendeley)](https://data.mendeley.com/datasets/rscbjbr9sj/2).
 ### Small size dataset:
 MedMNIST v2. (#medmnist) [(link)](https://zenodo.org/record/6496656), [(link2)](https://medmnist.com/)
 
