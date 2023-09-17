@@ -1,4 +1,4 @@
-# # Codes for paper:  Deep Neural Hashing for Medical Image Retrieval [arxiv](https://arxiv.org/abs/)
+# # Codes for paper-  OPHash: Learning of Organ and Pathology Context Sensitive Hashing for Medical Image Retrieval
 
 
 ## Prerequisites
@@ -6,6 +6,7 @@
 * Python\* 3.9
 * NVidia\* GPU for training
 * 16GB RAM for inference
+* CUDA 11.2
 
 
 ## Datasets
@@ -24,25 +25,10 @@ python OPHash.py
 Trained model will be saved in './models/'.
 
 ## Evalutions
-Trained models are available in [Here](https://iitkgpacin-my.sharepoint.com/:f:/g/personal/asimmanna17_kgpian_iitkgp_ac_in/EhAbL4IyLiFFrkMdJbRIuHMBj8cHos1ThDWzZN-nrSRzeg?e=mx7o1N).
+Trained models are available in [Here](https://iitkgpacin-my.sharepoint.com/:f:/g/personal/asimmanna17_kgpian_iitkgp_ac_in/EjehZrRXBR1BvVr6LGArxv8BLO9YOW2eZNgyRdLS4FSEgg?e=H5b75o).
 ```
 python evalution.py
 ```
-
-### Results
-Score of mean avergae precision for different hash code lengths.
-| mAP@p |  16  |  32 | 48| 64|
-|--|--|--|--|--|
-| mAP@10 | 0.8242| 0.9068 |0.9855 |0.9368 |
-| mAP@100 | 0.7854 |0.8878 |0.9806| 0.9336|
-| mAP@1000 | 0.7545 |0.8849 |0.9556 |0.9242|
-
-Score of normalized discounted cummulative gain for different hash code lengths.
-| nDCG@p |  16  |32 | 48| 64|
-|--|--|--|--|--|
-| nDCG@10 | 0.8805| 0.9398| 0.9886| 0.9582 |
-| nDCG@100 |0.9006| 0.9481 |0.9901|0.9640 |
-| nDCG@1000 | 0.9236| 0.9615| 0.9886 |0.9688 |
 
 
 **Contributor**
