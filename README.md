@@ -23,9 +23,10 @@ Sample dataset availabel on './data/'.
 python OPHash.py
 ```
 Trained model will be saved in './models/'.
+Trained models are available in [Here](https://iitkgpacin-my.sharepoint.com/:f:/g/personal/asimmanna17_kgpian_iitkgp_ac_in/EjehZrRXBR1BvVr6LGArxv8BLO9YOW2eZNgyRdLS4FSEgg?e=H5b75o).
 
 ## Evalutions
-Trained models are available in [Here](https://iitkgpacin-my.sharepoint.com/:f:/g/personal/asimmanna17_kgpian_iitkgp_ac_in/EjehZrRXBR1BvVr6LGArxv8BLO9YOW2eZNgyRdLS4FSEgg?e=H5b75o).
+
 ```
 python evalution.py
 ```
