@@ -11,7 +11,7 @@
 
 ## Datasets
 ### Large size dataset:
-  Figshare [(link)](https://figshare.com/articles/dataset/brain_tumor_dataset/1512427/5), kaggle [(link)](https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset) and Mendeley [(link)](https://data.mendeley.com/datasets/rscbjbr9sj/2).
+  Brain [(Figshare)](https://figshare.com/articles/dataset/brain_tumor_dataset/1512427/5), Breast [(link)](https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset) and Chest and Retina [(link)](https://data.mendeley.com/datasets/rscbjbr9sj/2).
 ### Small size dataset:
 MedMNIST v2. (#medmnist) [(link)](https://zenodo.org/record/6496656), [(link2)](https://medmnist.com/)
 
@@ -23,7 +23,7 @@ Sample dataset availabel on './data/'.
 python OPHash.py
 ```
 Trained model will be saved in './models/'.
-Trained models are available in [Here](https://iitkgpacin-my.sharepoint.com/:f:/g/personal/asimmanna17_kgpian_iitkgp_ac_in/EjehZrRXBR1BvVr6LGArxv8BLO9YOW2eZNgyRdLS4FSEgg?e=H5b75o).
+Trained models are available in [Here](https://iitkgpacin-my.sharepoint.com/:f:/g/personal/asimmanna17_kgpian_iitkgp_ac_in/EjehZrRXBR1BvVr6LGArxv8BiDBI3Wgk_Il_qeZJLCthwQ?e=TtqSLD).
 
 ## Evalutions
 
